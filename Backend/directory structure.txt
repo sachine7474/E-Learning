@@ -1,0 +1,24 @@
+elearning-backend/
+├── config/
+│   └── config.js
+├── controllers/
+│   ├── authController.js
+│   ├── courseController.js
+│   ├── enrollmentController.js
+│   └── userController.js
+├── middleware/
+│   └── auth.js
+├── models/
+│   ├── Course.js
+│   ├── Enrollment.js
+│   └── User.js
+├── routes/
+│   ├── authRoutes.js
+│   ├── courseRoutes.js
+│   ├── enrollmentRoutes.js
+│   └── userRoutes.js
+├── utils/
+│   └── email.js
+├── .env.example
+├── package.json
+└── server.js
